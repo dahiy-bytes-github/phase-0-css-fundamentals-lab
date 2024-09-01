@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+header h1 {
+  text-align: center;
+}
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+  
+}
+nav {
+  text-align: center;
+  padding: 10px;
+}
+nav a {
+  padding: 10px; 
+  background-color: grey;
+  
+  text-decoration: none;
+
+}
+#featured-property figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+#featured-property p {
+  width: 800px; /* Sets a fixed width for the paragraphs */
+  margin: 18px auto; /* Centers the paragraphs and adds vertical space */
+  text-align: center; /* Centers the text within the paragraphs */
+}
+#details {
+  overflow: hidden; /* Ensures floated elements are contained */
+}
+#details div {
+  float: left; 
+  width: 25%; /* Sets width to occupy 25% of the container */
+  background-color: red;
+  text-align: center;
+  
+}
